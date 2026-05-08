@@ -27,3 +27,37 @@ Predict whether a customer will leave the company using Machine Learning.
 
 ## Dataset
 Telco Customer Churn Dataset
+------------------------------------------------------------------------------------------
+
+# House Price Prediction
+
+## Objective
+Predict house prices using Machine Learning regression algorithms.
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+
+## Algorithms Used
+- Linear Regression
+- Ridge Regression
+- Lasso Regression
+- Gradient Boosting Regressor
+
+## Features
+- Data Cleaning
+- Missing Value Handling
+- Feature Scaling
+- Model Training
+- Hyperparameter Tuning
+- Performance Evaluation
+
+## Dataset
+House Prices Advanced Regression Techniques Dataset
+
+## Result
+Gradient Boosting Regressor achieved the best performance with high prediction accuracy.

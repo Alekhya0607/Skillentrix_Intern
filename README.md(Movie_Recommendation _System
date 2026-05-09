@@ -1,0 +1,78 @@
+# 🎬 Movie Recommendation System
+
+## 📌 Project Overview
+This project is a Movie Recommendation System developed using Machine Learning techniques. The system recommends movies to users based on content similarity using TF-IDF Vectorization and Cosine Similarity.
+
+The project demonstrates how recommendation engines used by platforms like Netflix and Amazon work to provide personalized suggestions.
+
+---
+
+## 🎯 Objective
+To build a recommendation system that suggests similar movies based on movie genres and user preferences.
+
+---
+
+## 🛠 Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-Learn
+- Matplotlib
+- Google Colab / Jupyter Notebook
+
+---
+
+## 📂 Dataset Used
+MovieLens Dataset
+
+Files:
+- movies.csv
+- ratings.csv
+
+---
+
+## ⚙️ Project Workflow
+1. Import Dataset
+2. Data Preprocessing
+3. Feature Extraction using TF-IDF
+4. Calculate Cosine Similarity
+5. Generate Movie Recommendations
+6. Display Recommended Movies
+
+---
+
+## ✨ Features
+- Content-Based Filtering
+- Personalized Movie Recommendations
+- Similarity Score Display
+- User Input Support
+- Popular Movie Analysis
+- Error Handling
+- Data Visualization
+
+---
+
+## 📊 Machine Learning Concepts Used
+- TF-IDF Vectorization
+- Cosine Similarity
+- Recommendation Systems
+- Content-Based Filtering
+
+---
+
+## 🚀 Future Improvements
+- Streamlit Web Application
+- Collaborative Filtering
+- Movie Poster Integration
+- Real-Time Recommendation System
+- Hybrid Recommendation Model
+
+---
+
+## ✅ Conclusion
+This project successfully developed a Movie Recommendation System using Machine Learning techniques such as TF-IDF Vectorization and Cosine Similarity. The system provides personalized movie recommendations efficiently and helped in understanding real-world recommendation engines used in modern streaming platforms.
+
+---
+
+## 👩‍💻 Author
+Alekhya Vandana

@@ -1,0 +1,137 @@
+# Credit Card Fraud Detection using Machine Learning
+
+## 📌 Project Overview
+
+This project detects fraudulent credit card transactions using Machine Learning and anomaly detection techniques. The project handles highly imbalanced transaction data using **Undersampling** and **SMOTE** techniques and applies the **Isolation Forest** algorithm for fraud detection.
+
+The system analyzes transaction patterns and predicts whether a transaction is fraudulent or legitimate.
+
+---
+
+# 🚀 Features
+
+* Data preprocessing
+* Fraud vs normal transaction analysis
+* Feature scaling
+* Undersampling technique
+* SMOTE oversampling
+* Isolation Forest anomaly detection
+* Model evaluation
+* Fraud prediction system
+* Confusion matrix visualization
+
+---
+
+# 🛠 Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Imbalanced-learn
+
+---
+
+# 📂 Dataset
+
+Dataset used:
+Credit Card Fraud Detection Dataset from Kaggle
+
+Dataset contains:
+
+* Transaction details
+* Amount
+* Time
+* Fraud labels
+
+---
+
+# ⚙️ Machine Learning Techniques Used
+
+## 🔹 Undersampling
+
+Reduces the number of normal transactions to balance the dataset.
+
+## 🔹 SMOTE (Synthetic Minority Oversampling Technique)
+
+Generates synthetic fraud samples to improve model performance.
+
+## 🔹 Isolation Forest
+
+An anomaly detection algorithm used to identify fraudulent transactions.
+
+---
+
+# 📊 Project Workflow
+
+1. Import libraries
+2. Load dataset
+3. Data preprocessing
+4. Data visualization
+5. Feature scaling
+6. Apply undersampling
+7. Apply SMOTE
+8. Train-test split
+9. Build Isolation Forest model
+10. Evaluate model
+11. Fraud prediction system
+
+---
+
+# 📈 Model Evaluation
+
+The model is evaluated using:
+
+* Accuracy
+* Precision
+* Recall
+* F1-score
+* Confusion Matrix
+
+---
+
+# ▶️ How to Run the Project
+
+## Install Required Libraries
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
+```
+
+## Run the Project
+
+```bash
+python fraud_detection.py
+```
+
+---
+
+# 📁 Project Structure
+
+```text id="w7n5pk"
+Credit-Card-Fraud-Detection/
+│
+├── dataset/
+├── screenshots/
+├── fraud_detection.py
+├── README.md
+```
+
+---
+
+# 🧠 Skills Gained
+
+* Machine Learning
+* Fraud Detection
+* Anomaly Detection
+* Data Preprocessing
+* Imbalanced Data Handling
+* Data Visualization
+
+---
+
+# 🏁 Conclusion
+
+This project successfully detects fraudulent credit card transactions using Machine Learning techniques. By applying Undersampling, SMOTE, and Isolation Forest, the system improves fraud detection performance and demonstrates real-world applications of AI in financial security.

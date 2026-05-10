@@ -1,122 +1,43 @@
-# Sentiment Analysis using NLP
+# Movie Review Sentiment Analysis using NLP
 
 ## Project Overview
+This project uses Natural Language Processing (NLP) and Machine Learning techniques to classify IMDb movie reviews as Positive or Negative.
 
-This project performs Sentiment Analysis on IMDB movie reviews using Natural Language Processing (NLP) and Machine Learning techniques. The model classifies reviews as Positive or Negative based on the review text.
-
----
-
-## Objective
-
-The main objective of this project is to:
-
-- Analyze textual movie reviews
-- Preprocess text data using NLP techniques
-- Convert text into numerical features using TF-IDF
-- Train a Machine Learning model for sentiment prediction
-
----
-
-## Technologies Used
-
-- Python
-- Google Colab
-- Pandas
-- NumPy
-- NLTK
-- Scikit-learn
-
----
-
-## Dataset
-
-Dataset Used:
-IMDB Movie Reviews Dataset
-
-Dataset contains:
-- Review text
-- Sentiment label (positive/negative)
-
----
-
-## Machine Learning Algorithm
-
-- Multinomial Naive Bayes
-
----
-
-## NLP Techniques Used
-
-- Text Cleaning
-- Lowercase Conversion
-- Stopword Removal
+## Features
+- Text preprocessing
+- Stopword removal
 - Stemming
 - TF-IDF Vectorization
+- Sentiment prediction
+- Confusion matrix visualization
 
----
+## Technologies Used
+- Python
+- Pandas
+- NLTK
+- Scikit-learn
+- Matplotlib
+- Seaborn
 
-## Project Workflow
+## Dataset
+IMDb Movie Reviews Dataset
 
-1. Import Libraries
-2. Load Dataset
-3. Preprocess Text Data
-4. Convert Text into TF-IDF Vectors
-5. Split Dataset into Training and Testing Sets
-6. Train Naive Bayes Model
-7. Predict Sentiment
-8. Evaluate Model Accuracy
+## Machine Learning Model
+- Logistic Regression
 
----
+## Workflow
+1. Data Loading
+2. Text Cleaning
+3. Feature Extraction using TF-IDF
+4. Model Training
+5. Prediction
+6. Evaluation
 
-## Model Evaluation
+## Results
+The model successfully predicts positive and negative movie reviews with good accuracy.
 
-The model is evaluated using:
+## Future Improvements
+- LSTM Model
+- BERT Integration
+- Flask Web App Deployment
 
-- Accuracy Score
-- Classification Report
-
-Expected Accuracy:
-Approximately 85% to 88%
-
----
-
-## How to Run the Project
-
-1. Open Google Colab
-2. Upload the IMDB Dataset CSV file
-3. Run all code sections step by step
-4. Enter custom movie reviews for prediction
-
----
-
-## Example Output
-
-Input:
-"The movie was excellent and very interesting"
-
-Output:
-Positive Review
-
----
-
-## Applications
-
-- Movie Review Analysis
-- Product Review Analysis
-- Customer Feedback Analysis
-- Social Media Sentiment Analysis
-
----
-
-## Future Enhancements
-
-- Use Deep Learning models like LSTM
-- Use BERT for better accuracy
-- Deploy using Flask or Streamlit
-- Create a Web Application
-
----
-
-## Conclusion
-
-This project successfully performs sentiment analysis using NLP and Machine Learning techniques. The trained model can accurately classify movie reviews as positive or negative.
